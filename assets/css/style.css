@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --button-color: #4a2685;
+    --hover-button: purple;
+}
+
+body {
+    font-family: sans-serif;
+    letter-spacing: .01rem;
+}
+
+.container {
+    width: 60%;
+    max-width: 960px;
+    margin: 2px auto 0 auto;
+    line-height: 1.2;
+    padding-top: 50px;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    
+}
+
+
+.btn {
+    background-color: var(--button-color);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-right: .5rem;
+    font-size: 1.5rem;
+    letter-spacing: .03rem;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: var(--hover-button);
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: .8rem;
+}
+
+header div {
+    font-weight: bold;
+}
+
+.high-score {
+    color: var(--hover-button);
+}
+
+.high-score:hover {
+    cursor: pointer;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    text-align: center;
+    align-items: center;
+}
+
+p {
+    padding: 20px;
+    font-size: 24.5px;
+}
+
+
+
+/* Screen Size changes*/
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 80%;
+		margin: 5rem auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+	h1,
+	h2 {
+		font-weight: 700;
+		font-size: 1.5rem;
+	}
+	#container .content p {
+		font-size: 1.5rem;
+		margin: 1rem 0;
+	}
+	.btn {
+		font-size: 1rem;
+	}
+}
