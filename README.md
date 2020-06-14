@@ -5,5 +5,5 @@ This challenge was to create a quiz using Javascript code that also allowed you 
 Deployed Link: https://brandonmcguire1992.github.io/coding-quiz/
 
 <p>
-    <img src="\assets\images\coding-quiz.png">
+    <img src="assets\images\coding-quiz.png">
 </p>
