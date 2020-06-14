@@ -23,7 +23,8 @@ body {
 
 }
 
-h1 {
+h1,
+h2 {
     font-weight: 700;
     font-size: 2.5rem;
     
@@ -82,6 +83,103 @@ p {
     font-size: 24.5px;
 }
 
+
+
+ul {
+	margin-top: 1rem;
+	list-style: none;
+}
+
+li {
+	margin-bottom: .5rem;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+	font-size: 1.2rem;
+}
+
+.high-score {
+	color: var(--secondary-color);
+}
+
+.high-score:hover {
+	cursor: pointer;
+}
+
+.quiz-start {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.quiz-start p {
+	margin: 1.5rem 0;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.feedback {
+	font-size: 1.6rem;
+	font-style: italic;
+	font-weight: 300;
+	color: var(--grey-color);
+	margin-top: 40px;
+	padding-top: 10px;
+	border-top: 1px solid var(--grey-color);
+}
+
+.game-over {
+	line-height: 2;
+}
+
+.game-over h3 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.game-over form {
+	display: flex;
+	align-items: center;
+}
+
+.game-over label {
+	font-size: 1.5rem;
+	margin-right: 1rem;
+}
+
+.game-over input#initials {
+	margin-right: 1rem;
+	height: 2.5rem;
+	min-width: 40%;
+	padding: 5px 10px;
+	font-size: 1.2rem;
+}
+
+.btn-short {
+	padding: 9px 30px;
+}
+
+.high-scores {
+	margin-top: 7rem;
+}
+
+.high-scores ul {
+	margin-bottom: 1.5rem;
+}
+
+.high-scores li {
+	background-color: var(--tertiary-color);
+	padding: .6rem;
+	margin-bottom: .6rem;
+	font-size: 1.5rem;
+}
 
 
 /* Screen Size changes*/
